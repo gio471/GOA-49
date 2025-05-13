@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+}
+.left, .right {
+    flex: 1;
+}
+.left {
+    padding: 20px;
+}
+.right {
+    background-color: #00474b;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.tip-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.tip-buttons button {
+    background-color: #00474b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1 1 calc(33.333% - 10px);
+}
+.tip-buttons button:hover {
+    background-color: #26c2ad;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.result {
+    margin-top: 20px;
+}
+.result div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.result div span {
+    font-size: 18px;
+}
+.reset-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #26c2ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset-button:hover {
+    background-color: #1a9a8a;
+}

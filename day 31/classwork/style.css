@@ -1,0 +1,38 @@
+.styled-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+ 
+.styled-link:link {
+    color: blue;
+    background-color: lightgray;
+  }
+  
+ 
+.styled-link:hover {
+    color: white;
+    background-color: green;
+    border-color: darkgreen;
+    transform: scale(1.1);
+  }
+  
+ 
+.styled-link:active {
+    color: yellow;
+    background-color: red;
+    border-color: darkred;
+    transform: scale(0.9);
+  }
+  
+.styled-link:visited {
+    color: purple;
+    background-color: lavender;
+    border-color: purple;
+  }

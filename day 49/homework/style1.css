@@ -1,0 +1,28 @@
+body {
+    background: #1a0128;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #2b1055;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.5);
+}
+h1 {
+    color: #ff9f43;
+}
+.ticket {
+    margin-top: 20px;
+    background: #3a1c71;
+    padding: 15px;
+    border-radius: 10px;
+}
+.ticket img {
+    width: 50px;
+    border-radius: 50%;
+}

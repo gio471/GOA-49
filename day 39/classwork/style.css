@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(47, 88%, 63%);
+}
+main {
+  display: flex;
+  align-items: center;
+  width: 106px;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 1px 1px black;
+  padding: 5px;
+}
+.picture {
+  width: 100px;
+  height: 60px;
+  margin-bottom: 94px;
+  margin-left: 3px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.conteiner2 {
+  font-size: 5px;
+  position: absolute;
+  margin-left: 3px;
+  font-weight: 670;
+  background-color: hsl(47, 88%, 63%);
+  width: 26px;
+  height: 9px;
+  border-radius: 1px;
+}
+.p1 {
+  text-align: center;
+  margin-top: 1px;
+}
+.div1 {
+  font-size: 4px;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 25px;
+  font-weight: 560;
+}
+.box1 {
+  position: absolute;
+  font-size: 8px;
+  margin-top: 50px;
+  margin-left: 2px;
+  font-weight: 700;
+}
+.text {
+  position: absolute;
+  font-size: 5px;
+  margin-top: 90px;
+  margin-left: 2px;
+  color: gray;
+ 
+  
+}
+.box2{
+    position:absolute;
+}
+.image1{
+  width: 8px;
+  margin-top: 155px;
+  margin-bottom: 13px;
+  margin-left: 3px;
+  
+}
+.name{
+  position: absolute;
+  font-size: 5px;
+  margin-top: 138px;
+  margin-left: 15px;
+  font-weight: 700;
+}
+span{
+    margin-left: 10px;
+}

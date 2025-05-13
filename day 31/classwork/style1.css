@@ -1,0 +1,21 @@
+.styled-button {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: royalblue;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .styled-button:hover {
+    background-color: darkblue;
+    color: lightblue;
+    border-color: royalblue;
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }

@@ -1,0 +1,67 @@
+.x1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: redtogreen;
+    animation-duration: 3s;
+    
+}
+
+@keyframes redtogreen {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+
+.x2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: moving;
+    animation-duration: 2s;
+}
+
+@keyframes moving {
+    0% {
+        translate: 0px;
+    }
+    100% {
+        translate: 200px;
+    }
+}
+
+.x3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: rotating 1s infinite;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.x4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: cool 4s linear;
+}
+
+@keyframes cool {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    100% {
+      transform: rotate(360deg) scale(1.5);
+    }
+  }

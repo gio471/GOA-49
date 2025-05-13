@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+header{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: 250;
+    color: hsl(234, 12%, 34%);
+}
+span{
+    font-weight: 700;
+}
+.uptxt{
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+}
+main{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.card{
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.left{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.top{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.bottom{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.right{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+.indiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.indiv p{
+    color: hsl(234, 12%, 34%);
+    max-width: 80%;
+    font-size: 16px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(234, 12%, 34%);
+}

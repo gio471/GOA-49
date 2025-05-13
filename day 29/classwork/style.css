@@ -1,0 +1,15 @@
+.p1{
+    text-decoration: underline dashed;  
+  }
+  .p2{
+      text-decoration: overline dotted ;
+  }
+  .p3{
+      text-decoration: underline double;
+  }
+  .p4{
+      text-decoration: underline wavy;
+  }
+  .p5{
+      text-decoration: line-through;
+  }

@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    animation-name: boxx;
+    animation-duration: 5s;
+}
+
+@keyframes boxx {
+    0% {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+    }
+    50% {
+        height: 150px;
+        width: 150px;
+        background-color: yellow;
+    }
+    to {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+    }
+}

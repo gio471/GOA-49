@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:55vh;
+    width: 1000px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    box-shadow: 0px 0px 5px hsl(241, 100%, 89%);
+    border-radius:30px;
+}
+.left{
+    padding: 40px;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.center{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width:200px ;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#w1{
+    font-family:Hanken Grotesk;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+}
+#w2{
+    font-family:Hanken Grotesk;
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+#w3{
+    font-family:Hanken Grotesk;
+    color: hsl(221, 100%, 96%);
+    font-size: 25px;
+    font-weight: 500;
+}
+#w4{
+    font-family:Hanken Grotesk;
+    color: hsl(221, 100%, 96%);
+    font-size: 35px;
+    font-weight: 800;
+}
+#w5{
+    font-family:Hanken Grotesk;
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+    text-align: center;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+h2{
+    font-family:Hanken Grotesk;
+   color: hsl(224, 30%, 27%); 
+   font-weight: 700;
+   font-size: 30px;
+   margin-bottom: 60px;
+}
+.first, .second, .third, .fourth{
+    font-family:Hanken Grotesk;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: hsl(221, 100%, 96%);
+    height: 60px;
+    width: 80%;
+    border-radius:15px;
+    margin: 10px;
+}
+.inner1, .inner2, .inner3, .inner4{
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+}
+.inner1{
+    color:hsl(0, 100%, 67%) ;
+}
+.inner2{
+    color: hsl(39, 100%, 56%);
+}
+.inner3{
+    color: hsl(166, 100%, 37%);
+}
+.inner4{
+    color: hsl(234, 85%, 45%);
+}
+span{
+    color: hsl(224, 30%, 27%);
+}
+button{
+    font-family:Hanken Grotesk;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    background-color: hsl(224, 30%, 27%);
+    width: 80%;
+    height: 80px;
+    border-radius: 40px;
+    margin-top: 80px;
+}
+#f5{
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}

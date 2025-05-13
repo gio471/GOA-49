@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+.p1{
+    font-family:  "Sixtyfour", serif;
+}
+#p2{
+   font-family:  "Lobster Two", serif;
+}
+.p3{
+    font-family:  "Archivo Black", serif;
+}

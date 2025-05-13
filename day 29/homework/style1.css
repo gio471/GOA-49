@@ -1,0 +1,4 @@
+img{
+    filter: drop-shadow(offset-x offset-y blur-radius color);
+}
+

@@ -1,0 +1,42 @@
+a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0;
+    display: inline-block;
+}
+  
+.link-one:link {
+    color: blue;
+}
+  
+.link-one:hover {
+    color: green;
+    text-decoration: underline;
+}
+  
+.link-one:active {
+    color: red;
+}
+  
+.link-one:visited {
+    color: purple;
+}
+  
+ 
+.link-two:link {
+    color: darkorange;
+}
+  
+.link-two:hover {
+    color: brown;
+    font-style: italic;
+}
+  
+.link-two:active {
+    color: black;
+}
+  
+.link-two:visited {
+    color: gray;
+}
+  

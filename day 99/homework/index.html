@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/style.css">
+
+</head>
+<body>
+<div class="left">
+    <div class="card">
+    <div class="chip"></div>
+    <div class="number" id="card-number">0000 0000 0000 0000</div>
+    <div class="bottom">
+        <div id="card-name">Jane Appleseed</div>
+        <div id="card-exp">00/00</div>
+    </div>
+    </div>
+</div>
+<div class="right">
+    <form class="form" oninput="updateCard()">
+    <label>CARDHOLDER NAME</label>
+    <input type="text" id="input-name" placeholder="e.g. Jane Appleseed" />
+
+    <label>CARD NUMBER</label>
+    <input type="text" id="input-number" placeholder="e.g. 1234 5678 9123 0000" maxlength="19"/>
+
+    <label>EXP. DATE (MM/YY)</label>
+    <div class="row">
+        <input type="text" id="input-mm" placeholder="MM" maxlength="2"/>
+        <input type="text" id="input-yy" placeholder="YY" maxlength="2"/>
+    </div>
+
+    <label>CVC</label>
+    <input type="text" placeholder="e.g. 123" maxlength="3"/>
+
+    <button type="button">Confirm</button>
+    </form>
+</div>

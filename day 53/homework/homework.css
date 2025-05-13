@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    transition: all 4s;
+}
+
+.a1:hover{
+    transform: rotate(170deg);
+}
+
+.a2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: all 3s;
+}
+
+.a2:hover{
+    background-color: aqua;
+}
+
+.a3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 5s;
+}
+
+.a3:hover{
+    transform: scale(4);
+}

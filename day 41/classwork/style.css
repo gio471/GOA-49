@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:60vh ;
+    width: 1500px;
+    background-color: black;
+    display: flex;
+    border-radius: 15px;
+}
+.left, .center, .right{
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+.left{
+    background-color:hsl(31, 77%, 52%) ;
+    border-radius: 15px 0px 0px 15px;
+}
+.center{
+    background-color:hsl(184, 100%, 22%) ;
+}
+.right{
+    background-color: hsl(179, 100%, 13%) ;
+    border-radius: 0px 15px 15px 0px;
+}
+.top, .top2, .top3{
+    height:20%;
+    width: 100%;
+}
+img{
+    height: 80px;
+    width: 128px;
+}
+.info, .info2, .info3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-size:  60px;
+    padding: 30px 0px 30px 0px;
+    font-family: Big Shoulders Display;
+    
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 31px;
+    line-height: 45px;
+    
+}
+.down, .down2, .down3{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 0px 0px 0px;
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-style: none;
+    width: 250px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Lexend Deca;
+}
+#a1{
+    color:hsl(31, 77%, 52%) ;
+}
+#a2{
+    color:hsl(184, 100%, 22%) ;
+}
+#a3{
+    color:hsl(179, 100%, 13%) ;
+}
+#a1:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+    border: 4px solid hsl(0, 0%, 95%);
+}
+#a2:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color: hsl(0, 0%, 95%);
+    border: 4px solid hsl(0, 0%, 95%);
+}
+#a3:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color: hsl(0, 0%, 95%);
+    border: 4px solid hsl(0, 0%, 95%);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Level Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4">My Multi Level Table</th>
+        </tr>
+        <tr>
+            <th>Column 0</th>
+            <th>Column 1</th>
+            <th colspan="2">Column 2</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Column 2a</th>
+            <th>Column 2b</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1</td>
+            <td>Row 1a</td>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td>Row 1b</td>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+        <tr>
+            <td>Row 2</td>
+            <td>123</td>
+            <td>456</td>
+            <td>789</td>
+        </tr>
+    </table>
+    <!-- დაწერეთ inline, internal და external ლეველების შესახებ -->
+    <!-- Inline სტილები პირდაპირ ელემენტში იწერება style ატრიბუტის გამოყენებით. -->
+    <!-- ეს მეთოდი კონკრეტული ელემენტის სტილიზაციისთვის გამოიყენება. -->
+    <!-- Internal სტილები იწერება HTML დოკუმენტის <head> სექციაში, <style> ტეგის გამოყენებით. -->
+    <!-- ის გამოიყენება, როდესაც საჭიროა კონკრეტულად ერთ გვერდზე მოქმედი სტილები. -->
+    <!-- External სტილები იყენებს ცალკე CSS ფაილს, რომელსაც უკავშირებენ HTML დოკუმენტს <link> ტეგის საშუალებით. -->
+
+    <!-- Inline სტილები გამოიყენება,
+    როცა კონკრეტული HTML ელემენტის სტილიზაცია ხდება უშუალოდ მისი style ატრიბუტის მეშვეობით. -->
+    <!-- Element Selector (ელემენტის ამორჩევა) საშუალებას გვაძლევს სტილი დავაყენოთ კონკრეტულ HTML ტეგზე. -->
+    <!-- ID-ები უნიკალურია და გამოიყენება კონკრეტული ელემენტის -->
+    <!-- სტილიზაციისთვის. ID-ს უნიკალურობა HTML დოკუმენტში უზრუნველყოფს ერთჯერად გამოყენებას. -->
+    <!-- Class-ები საშუალებას გვაძლევს ერთსა და იმავე სტილს დავაყენოთ მრავალი ელემენტისთვის. -->
+</body>
+</html>

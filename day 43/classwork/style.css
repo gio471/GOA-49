@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+}
+.main {
+  width: 179px;
+  height: 280px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+.div1 {
+  margin-top: 14px;
+  margin-left: 20px;
+}
+.image {
+  width: 140px;
+  border-radius: 3px;
+}
+.div2 {
+  transform: translateY(-7px);
+  margin-left: 19px;
+}
+.p2 {
+  font-size: 12px;
+  font-family: "Outfit", serif;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  font-weight: 400;
+}
+.p2:active {
+  color: hsl(178, 100%, 50%);
+}
+.div3 {
+  transform: translateY(-13px);
+  margin-left: 16px;
+}
+.p3 {
+  font-size: 9px;
+  color: rgb(121, 121, 121);
+  font-family: "Outfit", serif;
+  font-weight: 300;
+}
+.div4 {
+  transform: translateY(-10px);
+  margin-left: 22px;
+}
+.p4 {
+  font-size: 8px;
+  color: hsl(178, 100%, 50%);
+  font-family: "Outfit", serif;
+}
+.div5 {
+  transform: translateY(-33px);
+  margin-left: 15px;
+}
+.photo {
+  width: 5px;
+}
+.div6 {
+  transform: translateY(-33px);
+}
+.hr {
+  width: 150px;
+  color: gray;
+}
+.div7 {
+  transform: translateY(-65px);
+  margin-left: 125px;
+}
+.p7 {
+  font-size: 8px;
+  color: gray;
+  font-family: "Outfit", serif;
+}
+.div8 {
+  transform: translateY(-87px);
+  margin-left: 111px;
+}
+.clock {
+  width: 10px;
+}
+.div9 {
+  transform: translateY(-74px);
+  margin-left: 36px;
+}
+.p9 {
+  font-size: 8px;
+  color: gray;
+  font-family: "Outfit", serif;
+}
+.div10 {
+  transform: translateY(-94px);
+  margin-left: 12px;
+}
+.avatar {
+  width: 14px;
+  border: 1px solid white;
+  border-radius: 8px;
+}

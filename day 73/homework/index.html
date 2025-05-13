@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="32x32" href="./tip-calculator-app-main/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>SPLITTER</h1>
+            <div class="input-group">
+                <label for="bill">Bill</label>
+                <input type="number" id="bill" placeholder="0">
+            </div>
+            <div class="tip-buttons">
+                <button onclick="selectTip(5)">5%</button>
+                <button onclick="selectTip(10)">10%</button>
+                <button onclick="selectTip(15)">15%</button>
+                <button onclick="selectTip(25)">25%</button>
+                <button onclick="selectTip(50)">50%</button>
+                <input type="number" id="customTip" placeholder="Custom" oninput="selectCustomTip()">
+            </div>
+            <div class="input-group">
+                <label for="people">Number of People</label>
+                <input type="number" id="people" placeholder="0">
+            </div>
+        </div>
+        <div class="right">
+            <div class="result">
+                <div>
+                    <span>Tip Amount</span>
+                    <span id="tipAmount">$0.00</span>
+                </div>
+                <div>
+                    <span>Total</span>
+                    <span id="totalAmount">$0.00</span>
+                </div>
+            </div>
+            <button class="reset-button" onclick="resetCalculator()">Reset</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

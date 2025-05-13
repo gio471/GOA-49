@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: League Spartan;
+}
+body{
+    height: 100vh;
+    background-image: url("../images/bg-pattern-top-desktop.svg"), 
+    url("../images/bg-pattern-bottom-desktop.svg");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    height: 75vh;
+    align-self: center;
+}
+.upper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.upleft{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    font-size: 66px;
+    color: hsl(300, 43%, 22%);
+}
+#start-txt{
+    font-size: 19px;
+    line-height: 25px;
+    color: hsl(303, 10%, 53%);
+}
+.upright{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.divi{
+    display: flex;
+    padding-left: 35px;
+    gap: 40px;
+    align-items: center;
+    width: 420px;
+    height: 60px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+}
+.divp{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 18px;
+}
+.div2{
+    margin-left: 50px;
+}
+.div3{
+    margin-left: 100px;
+}
+.divi1{
+    box-sizing: border-box;
+    background-color: hsl(300, 43%, 22%);
+    width: 390px;
+    height: 250px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.divi1div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.divi1div img{
+    border-radius: 50%;
+    width: 40px;
+}
+.divi1div p{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.name{
+    color: white;
+    font-weight: 600;
+}
+.status{
+    color: hsl(333, 80%, 67%);
+    opacity: 0.8;
+}
+.text{
+    line-height: 1.5;
+    color: hsl(300, 24%, 96%);
+}
+.lower{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.div5{
+    margin-top: 20px;
+}
+.div6{
+    margin-top: 40px;
+}
